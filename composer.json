@@ -1,0 +1,16 @@
+{
+    "name": "invoice-model/php-version",
+    "description": "PHP version of the invoice number analysis tool",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "phpoffice/phpspreadsheet": "^1.29"
+    },
+    "autoload": {
+        "psr-4": {
+            "Models\\": "models/",
+            "Analyzer\\": "analyzer/",
+            "Excel\\": "excel/"
+        }
+    }
+} 
